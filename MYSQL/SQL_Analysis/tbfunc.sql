@@ -12,4 +12,4 @@ select * from tb_func;
 
 alter table tb_func modify numero_filhos varchar(2);
 
-select * from tb_func;
+select * from tb_func order by id asc
