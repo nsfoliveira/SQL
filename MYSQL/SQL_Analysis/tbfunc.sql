@@ -7,3 +7,9 @@ salario_hora		double,
 idade				int,
 reg_procedencia		varchar(30)
 )
+
+select * from tb_func;
+
+alter table tb_func modify numero_filhos varchar(2);
+
+select * from tb_func;
