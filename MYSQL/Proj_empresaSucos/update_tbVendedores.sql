@@ -1,2 +1,8 @@
 update tbvendedores set PERCENTUAL_COMISSAO = 0.10
 WHERE MATRICULA = '00233';
+
+UPDATE tbvendedores SET PERCENTUAL_COMISSAO = 0.11
+WHERE MATRICULA = '00236';
+
+UPDATE tbvendedores SET NOME = 'José Geraldo da Fonseca Junior'
+WHERE MATRICULA = '00233';
