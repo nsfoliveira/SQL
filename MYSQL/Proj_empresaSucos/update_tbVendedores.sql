@@ -1,0 +1,2 @@
+update tbvendedores set PERCENTUAL_COMISSAO = 0.10
+WHERE MATRICULA = '00233';
