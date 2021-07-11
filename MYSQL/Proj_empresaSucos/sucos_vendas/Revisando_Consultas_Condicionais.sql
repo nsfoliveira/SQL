@@ -7,3 +7,7 @@ select * from tabela_de_produtos where SABOR = 'manga' AND not EMBALAGEM = 'PET'
 select * from tabela_de_produtos where SABOR in ('laranja', 'manga');
 
 select * from tabela_de_clientes where CIDADE in ('Rio de Janeiro') AND IDADE between 25 and 28;
+
+select * from tabela_de_clientes where NOME like ('%OLIVEIRA%');
+
+select * from tabela_de_clientes where NOME like ('%MATTOS');
