@@ -9,3 +9,5 @@ select * from tabela_de_clientes;
 select * from tabela_de_produtos;
 
 select * from tabela_de_vendedores;
+
+select CPF as Identificador, NOME as Cliente from tabela_de_clientes;
