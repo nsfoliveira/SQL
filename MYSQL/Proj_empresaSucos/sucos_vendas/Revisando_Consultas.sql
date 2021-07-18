@@ -32,4 +32,10 @@ SELECT NOME FROM tabela_de_clientes ORDER BY NOME ASC
 
 SELECT * FROM tabela_de_produtos ORDER BY PRECO_DE_LISTA;
 
-SELECT * FROM tabela_de_produtos WHERE nome_do_produto = 'Linha Refrescante - 1 Litro - Morango/Limão'
+SELECT ESTADO, LIMITE_DE_CREDITO FROM tabela_de_clientes
+
+SELECT ESTADO, MAX(LIMITE_DE_CREDITO) AS LIMITE_MAXIMO_POR_UF FROM tabela_de_clientes group by ESTADO
+
+SELECT MAX(`QUANTIDADE`) as 'MAIOR QUANTIDADE' FROM itens_notas_fiscais WHERE `CODIGO_DO_PRODUTO` = '1101035' ;
+
+SELECT COUNT(*) FROM itens_notas_fiscais WHERE codigo_do_produto = '1101035' AND QUANTIDADE = 99;
