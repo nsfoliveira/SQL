@@ -28,5 +28,8 @@ SELECT NOME FROM tabela_de_clientes LIMIT 3; # AQUI ESTOU PEGANDO OS 3 PRIMEIROS
 
 SELECT NOME FROM tabela_de_clientes LIMIT 3,2; # AQUI ESTOU PEGANDO DEPOIS DOS 3 PRIMEIROS REGISTROS, OS DOIS REGISTROS SEGUINTES #
 
-SELECT * FROM notas_fiscais WHERE DATA_VENDA = '2017-01-01' LIMIT 10
+SELECT NOME FROM tabela_de_clientes ORDER BY NOME ASC
 
+SELECT * FROM tabela_de_produtos ORDER BY PRECO_DE_LISTA;
+
+SELECT * FROM tabela_de_produtos WHERE nome_do_produto = 'Linha Refrescante - 1 Litro - Morango/Limão'
