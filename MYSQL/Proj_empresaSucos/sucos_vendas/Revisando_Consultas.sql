@@ -15,3 +15,11 @@ select CPF as Identificador, NOME as Cliente from tabela_de_clientes;
 select * from notas_fiscais where MATRICULA = 00235;
 
 select * from notas_fiscais where IMPOSTO between 0.1 and 0.13;
+
+SELECT EMBALAGEM, TAMANHO FROM tabela_de_produtos
+
+SELECT DISTINCT EMBALAGEM, TAMANHO FROM tabela_de_produtos; 
+
+SELECT DISTINCT BAIRRO FROM tabela_de_clientes WHERE CIDADE = "Rio de Janeiro";
+
+
