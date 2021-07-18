@@ -44,3 +44,9 @@ SELECT ESTADO, MAX(LIMITE_DE_CREDITO) AS LIMITE_MAXIMO_POR_UF FROM tabela_de_cli
 
 SELECT CPF, COUNT(*) FROM notas_fiscais WHERE YEAR(DATA_VENDA) = 2016  GROUP BY CPF  HAVING COUNT(*) > 2000
 
+SELECT NOME,
+	CASE WHEN YEAR(data_de_nascimento) < 1990 THEN 'Velho'WHEN YEAR(data_de_nascimento) >= 1990 AND
+	YEAR(data_de_nascimento) <= 1995 THEN 'Jovens' 
+	ELSE 'Crianças' 
+END FROM tabela_de_clientes
+
