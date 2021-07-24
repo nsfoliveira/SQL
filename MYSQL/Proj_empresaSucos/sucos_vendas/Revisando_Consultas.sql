@@ -86,3 +86,9 @@ inner join notas_fiscais as B on A.CPF = B.CPF;
 
 select distinct A.CPF, A.NOME, B.CPF from tabela_de_clientes as A
 left join notas_fiscais as B on A.CPF = B.CPF;
+
+select * from tabela_de_vendedores
+
+select * from tabela_de_clientes
+
+select * from tabela_de_vendedores inner join tabela_de_clientes on tabela_de_vendedores.BAIRRO = tabela_de_clientes.BAIRRO;
