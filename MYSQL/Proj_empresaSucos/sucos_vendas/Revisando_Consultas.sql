@@ -66,3 +66,8 @@ CASE
 END
 ORDER BY EMBALAGEM;
 
+select * from tabela_de_vendedores;
+select * from notas_fiscais;
+
+select * from tabela_de_vendedores as a inner join notas_fiscais as b on a.MATRICULA = b.MATRICULA;
+
