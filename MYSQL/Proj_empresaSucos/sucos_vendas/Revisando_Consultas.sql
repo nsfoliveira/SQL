@@ -73,3 +73,4 @@ select * from tabela_de_vendedores as a inner join notas_fiscais as b on a.MATRI
 
 select a.MATRICULA, a.NOME, count(*) from tabela_de_vendedores as a inner join notas_fiscais as b on a.MATRICULA = b.MATRICULA group by a.MATRICULA, a.NOME;
 
+select year(DATA_VENDA), sum(QUANTIDADE * PRECO) as Faturamento from notas_fiscais as NF inner join itens_notas_fiscais as INF ON NF.NUMERO = INF.NUMERO group by year(DATA_VENDA);
