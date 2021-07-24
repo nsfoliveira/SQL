@@ -71,3 +71,5 @@ select * from notas_fiscais;
 
 select * from tabela_de_vendedores as a inner join notas_fiscais as b on a.MATRICULA = b.MATRICULA;
 
+select a.MATRICULA, a.NOME, count(*) from tabela_de_vendedores as a inner join notas_fiscais as b on a.MATRICULA = b.MATRICULA group by a.MATRICULA, a.NOME;
+
