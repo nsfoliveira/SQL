@@ -7,3 +7,5 @@ CREATE TABLE TB_CLIENTE(
 	TELEFONE		VARCHAR(30),
 	SEXO			CHAR(1)
 );
+
+desc tb_cliente;
