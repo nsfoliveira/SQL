@@ -1,0 +1,7 @@
+2021-10-22 15:42:28.485 -03 [5084] LOG:  database system was shut down at 2021-10-22 15:42:13 -03
+2021-10-22 15:42:28.539 -03 [6792] LOG:  database system is ready to accept connections
+2021-10-22 15:51:03.910 -03 [6108] ERROR:  syntax error at or near "select" at character 14
+2021-10-22 15:51:03.910 -03 [6108] STATEMENT:  select now()
+	select now();
+2021-10-22 15:56:38.118 -03 [6108] LOG:  could not receive data from client: unrecognized winsock error 10054
+2021-10-22 16:16:05.196 -03 [6540] LOG:  could not rename temporary statistics file "pg_stat_tmp/global.tmp" to "pg_stat_tmp/global.stat": Permission denied
