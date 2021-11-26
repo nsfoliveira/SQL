@@ -1,0 +1,9 @@
+CREATE TABLE Minhas_Disciplinas(
+	ID			SERIAL PRIMARY KEY,
+	ANO			CHAR(4),
+	MODULO		CHAR(1),
+	DISCIPLINA	VARCHAR(30),
+	DESCRICAO	TEXT
+);
+
+SELECT * FROM Minhas_Disciplinas;

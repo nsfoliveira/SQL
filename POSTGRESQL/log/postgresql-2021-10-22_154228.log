@@ -5,3 +5,10 @@
 	select now();
 2021-10-22 15:56:38.118 -03 [6108] LOG:  could not receive data from client: unrecognized winsock error 10054
 2021-10-22 16:16:05.196 -03 [6540] LOG:  could not rename temporary statistics file "pg_stat_tmp/global.tmp" to "pg_stat_tmp/global.stat": Permission denied
+2021-10-22 16:27:48.663 -03 [10720] LOG:  could not receive data from client: unrecognized winsock error 10054
+2021-10-22 16:27:48.664 -03 [7100] LOG:  could not receive data from client: unrecognized winsock error 10054
+2021-10-22 16:27:48.664 -03 [10176] LOG:  could not receive data from client: unrecognized winsock error 10054
+2021-10-22 16:27:48.729 -03 [4388] LOG:  could not send data to client: unrecognized winsock error 10054
+2021-10-22 16:27:48.729 -03 [4388] FATAL:  connection to client lost
+2021-10-22 16:30:03.764 -03 [14296] LOG:  could not receive data from client: unrecognized winsock error 10054
+2021-10-22 16:30:03.765 -03 [2316] LOG:  could not receive data from client: unrecognized winsock error 10054

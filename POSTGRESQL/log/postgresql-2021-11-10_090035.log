@@ -1,0 +1,13 @@
+2021-11-10 09:00:35.776 -03 [5716] LOG:  database system was shut down at 2021-11-10 08:59:57 -03
+2021-11-10 09:00:35.919 -03 [5448] LOG:  database system is ready to accept connections
+2021-11-10 09:19:17.154 -03 [5748] LOG:  could not rename temporary statistics file "pg_stat_tmp/global.tmp" to "pg_stat_tmp/global.stat": Permission denied
+2021-11-10 09:19:23.764 -03 [3056] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2021-11-10 09:26:46.908 -03 [5748] LOG:  could not rename temporary statistics file "pg_stat_tmp/global.tmp" to "pg_stat_tmp/global.stat": Permission denied
+2021-11-10 09:26:53.573 -03 [9464] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2021-11-10 14:21:23.671 -03 [5748] LOG:  could not rename temporary statistics file "pg_stat_tmp/global.tmp" to "pg_stat_tmp/global.stat": Permission denied
+2021-11-10 14:21:30.300 -03 [8952] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2021-11-10 14:35:53.284 -03 [5748] LOG:  could not rename temporary statistics file "pg_stat_tmp/global.tmp" to "pg_stat_tmp/global.stat": Permission denied
+2021-11-10 14:35:59.799 -03 [5492] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2021-11-10 17:27:36.064 -03 [5748] LOG:  could not rename temporary statistics file "pg_stat_tmp/global.tmp" to "pg_stat_tmp/global.stat": Permission denied
+2021-11-10 17:27:42.655 -03 [10576] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2021-11-11 08:18:28.649 -03 [5448] LOG:  received fast shutdown request

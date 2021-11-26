@@ -13,3 +13,4 @@ select * from tb_cliente; # * traz tudo dentro da tabela, usar apenas para fins 
 select NOME, EMAIL from tb_cliente where SEXO = 'M';
 
 select NOME, ENDERECO from tb_cliente where ENDERECO like '%WILSON'; # o like trabalha junto com o caracter coringa % #
+
