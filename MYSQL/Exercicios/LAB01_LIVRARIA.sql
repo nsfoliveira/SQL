@@ -8,7 +8,7 @@ nome_autor			varchar(141),
 sexo_autor			varchar(10),
 n_paginas			integer,
 nome_editora		varchar(70),
-valor_livro			decimal,
+valor_livro			decimal, #eera pra colocar como float
 estado				char(2),
 ano_publicacao		integer
 );
@@ -26,24 +26,29 @@ insert into livros values ('Cavaleiro Real', 'Ana Claudia', 'Feminino', 465, 'At
                                   ('O poder da mente', 'Clara Mafra', 'Feminino', 120, 'Continental', 56.58, 'SP', 2017);
                                   
 /* Trazer todos os dados*/
-select * from livros;
+select * from livros; #correto
 
 /* trazer o nome do livro e o nome da editora */
-select nome_livro, nome_editora from livros;
+select nome_livro, nome_editora from livros; #correto
 
 /* trazer o nome livro e a uf dos livros por autores do sexo masculino */
-select nome_livro, estado from livros where sexo_autor = 'Masculino';
+select nome_livro, estado from livros where sexo_autor = 'Masculino'; #correto
 
 /* trazer o nome do livro e o numero de paginas dos livros publicados por autores do sexo feminino */
-select nome_livro, n_paginas from livros where sexo_autor = 'Feminino';
+select nome_livro, n_paginas from livros where sexo_autor = 'Feminino'; #correto
 
 /* trazer valores dos livros das editoras de são paulo */
 select valor_livro from livros where estado = 'SP';
 
-/* Trazer os dados dos autores do sexo masculino que tiveram livros publicados por sp ou rj */
+/* Trazer os dados dos autores do sexo masculino que tiveram livros publicados por sp ou rj questão desafio*/
+#select nome_autor, sexo_autor, estado from livros where sexo_autor = 'Masculino' and estado = 'SP' or 'RJ';# incorreto
+# abaixo sugestão correta:
 select nome_autor, sexo_autor, estado 
-from livros 
-where sexo_autor = 'Masculino' 
-and estado = 'SP' or 'RJ';
+from livros
+where sexo_autor = 'Masculino'
+and
+(estado = 'SP' or estado = 'RJ');
+
+
 
                                   

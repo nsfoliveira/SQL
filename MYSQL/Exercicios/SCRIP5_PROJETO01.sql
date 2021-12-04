@@ -1,0 +1,74 @@
+use projeto;
+
+# OPERADORES LÓGICOS
+# OR - Para que a saída seja verdadeira, basta apenas uma das condições ser verdaderia
+# AND - Para que uma saída seja verdadeira, todas as condições têm que ser verdadeiras
+
+# OR  OU
+
+SELECT * FROM tb_cliente;
+
+SELECT NOME, SEXO, ENDERECO FROM tb_cliente
+WHERE SEXO = 'M' OR ENDERECO LIKE '%RJ';
+
+SELECT NOME, SEXO, ENDERECO FROM tb_cliente
+WHERE SEXO = 'f' OR ENDERECO LIKE '%PRES%';
+
+# AND - execute
+
+SELECT NOME, SEXO, ENDERECO FROM tb_cliente
+WHERE SEXO = 'M' AND ENDERECO LIKE '%PRES';
+
+SELECT NOME, SEXO, ENDERECO FROM tb_cliente
+WHERE SEXO = 'f' AND ENDERECO LIKE '%PRES%';
+
+# COUNT(*) GROUPY BY, PERFORMANCE COM OPERADORES LÓGICOS
+
+# CONTANDO OS REGISTROS DE UMA TABELA
+SELECT COUNT(*) FROM tb_cliente;
+
+SELECT count(*) AS 'Quantidade de registros' FROM tb_cliente;
+
+# GROUP BY
+SELECT	SEXO, count(*) FROM tb_cliente; # Isso é incorreto
+
+SELECT SEXO, count(*) FROM tb_cliente group by SEXO;
+
+# PERFORMANCE EM OPERADORES LÓGICOS
+PARA CONTAR
+SELECT COUNT(*) FROM tb_cliente;
+
+SELECT SEXO, COUNT(*) FROM tb_cliente
+GROUP BY SEXO;
+
+SELECT CIDADE, COUNT(*) FROM CLIENTE
+GROUP BY CIDADE;
+
+CONDICAO
+SEXO = F
+CIDADE = RIO DE JANEIRO
+
+SITUACAO - TRATANDO COM OU / OR
+70% MULHERES = SEXO = F
+30% MORA NO RIO DE JANEIRO
+
+SELECT NOME, SEXO, ENDERECO
+FROM CLIENTE
+WHERE SEXO = 'F'
+OR CIDADE = 'RIO DE JANEIRO';
+
+SITUACAO - TRATANDO COM E / AND
+70% MULHERES = SEXO = F
+30% MORA NO RIO DE JANEIRO
+
+SELECT NOME, SEXO, ENDERECO
+FROM CLIENTE
+WHERE CIDADE = 'RIO DE JANEIRO'
+AND SEXO = 'F';
+
+
+
+
+
+
+
