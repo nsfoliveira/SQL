@@ -1,0 +1,2 @@
+2021-12-17 23:57:15.370 -03 [6532] LOG:  could not rename temporary statistics file "pg_stat_tmp/global.tmp" to "pg_stat_tmp/global.stat": Permission denied
+2021-12-17 23:57:21.320 -03 [17880] LOG:  using stale statistics instead of current ones because stats collector is not responding
