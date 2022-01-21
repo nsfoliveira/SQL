@@ -1,0 +1,8 @@
+2022-01-15 20:41:33.678 -03 [5312] LOG:  database system was shut down at 2022-01-15 20:40:59 -03
+2022-01-15 20:41:33.810 -03 [5368] LOG:  database system is ready to accept connections
+2022-01-15 20:41:56.914 -03 [4172] ERROR:  canceling statement due to user request
+2022-01-15 20:41:56.924 -03 [5368] LOG:  received fast shutdown request
+2022-01-15 20:41:57.059 -03 [5368] LOG:  aborting any active transactions
+2022-01-15 20:41:57.099 -03 [5368] LOG:  background worker "logical replication launcher" (PID 4172) exited with exit code 1
+2022-01-15 20:41:57.122 -03 [4128] LOG:  shutting down
+2022-01-15 20:41:57.573 -03 [5368] LOG:  database system is shut down
