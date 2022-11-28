@@ -1,0 +1,3 @@
+2022-05-21 21:17:18.548 -03 [5812] LOG:  background worker "logical replication launcher" (PID 4880) exited with exit code 1
+2022-05-21 21:17:18.582 -03 [988] LOG:  shutting down
+2022-05-21 21:17:20.437 -03 [5812] LOG:  database system is shut down

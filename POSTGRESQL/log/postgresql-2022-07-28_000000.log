@@ -1,0 +1,5 @@
+2022-07-31 13:08:55.079 -03 [6352] LOG:  received fast shutdown request
+2022-07-31 13:08:55.178 -03 [6352] LOG:  aborting any active transactions
+2022-07-31 13:08:55.589 -03 [6352] LOG:  background worker "logical replication launcher" (PID 6412) exited with exit code 1
+2022-07-31 13:08:55.783 -03 [6112] LOG:  shutting down
+2022-07-31 13:08:56.482 -03 [6352] LOG:  database system is shut down

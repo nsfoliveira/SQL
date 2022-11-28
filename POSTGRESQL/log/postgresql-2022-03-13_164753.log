@@ -1,0 +1,6 @@
+2022-03-13 16:47:54.310 -03 [2968] LOG:  database system was interrupted; last known up at 2022-02-11 13:00:08 -03
+2022-03-13 16:47:56.722 -03 [2968] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-03-13 16:47:56.762 -03 [2968] LOG:  redo starts at 0/16746C0
+2022-03-13 16:47:56.762 -03 [2968] LOG:  invalid record length at 0/16746F8: wanted 24, got 0
+2022-03-13 16:47:56.762 -03 [2968] LOG:  redo done at 0/16746C0
+2022-03-13 16:47:57.052 -03 [5492] LOG:  database system is ready to accept connections

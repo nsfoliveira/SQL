@@ -1,0 +1,6 @@
+2022-02-11 13:00:08.504 -03 [4268] LOG:  database system was shut down in recovery at 2022-02-11 12:59:39 -03
+2022-02-11 13:00:08.526 -03 [4268] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-02-11 13:00:08.564 -03 [4268] LOG:  redo starts at 0/1674560
+2022-02-11 13:00:08.564 -03 [4268] LOG:  invalid record length at 0/1674648: wanted 24, got 0
+2022-02-11 13:00:08.564 -03 [4268] LOG:  redo done at 0/1674610
+2022-02-11 13:00:08.876 -03 [5520] LOG:  database system is ready to accept connections

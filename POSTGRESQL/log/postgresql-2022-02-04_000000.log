@@ -1,0 +1,2 @@
+2022-02-05 13:51:00.341 -03 [7044] LOG:  could not rename temporary statistics file "pg_stat_tmp/global.tmp" to "pg_stat_tmp/global.stat": Permission denied
+2022-02-05 13:51:06.620 -03 [11520] LOG:  using stale statistics instead of current ones because stats collector is not responding

@@ -1,0 +1,6 @@
+2022-02-11 12:59:37.840 -03 [5940] LOG:  received fast shutdown request
+2022-02-11 12:59:37.865 -03 [6308] LOG:  database system was interrupted; last known up at 2022-02-10 20:19:31 -03
+2022-02-11 12:59:39.246 -03 [6308] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-02-11 12:59:39.287 -03 [6308] LOG:  redo starts at 0/1674560
+2022-02-11 12:59:39.329 -03 [6060] LOG:  shutting down
+2022-02-11 12:59:39.357 -03 [5940] LOG:  database system is shut down

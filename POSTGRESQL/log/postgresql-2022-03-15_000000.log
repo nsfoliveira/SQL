@@ -1,0 +1,7 @@
+2022-03-15 12:06:17.334 -03 [5492] LOG:  received fast shutdown request
+2022-03-15 12:06:17.343 -03 [6876] ERROR:  canceling statement due to user request
+2022-03-15 12:06:17.342 -03 [6904] ERROR:  canceling statement due to user request
+2022-03-15 12:06:19.157 -03 [5492] LOG:  aborting any active transactions
+2022-03-15 12:06:19.160 -03 [5492] LOG:  background worker "logical replication launcher" (PID 6904) exited with exit code 1
+2022-03-15 12:06:19.212 -03 [6840] LOG:  shutting down
+2022-03-15 12:06:19.498 -03 [5492] LOG:  database system is shut down
