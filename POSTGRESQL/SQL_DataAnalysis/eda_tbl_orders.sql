@@ -36,6 +36,18 @@ ORDER BY 1
 SELECT DISTINCT(DATE_PART('year', occurred_at))
 FROM "Parch_Posey".orders
 
-SELECT *
+
+-- VERIFICANDO SE HÁ DUPLICIDADE DE DADOS
+SELECT COUNT(*)
+FROM (
+      SELECT order_id, account_id, occurred_at, COUNT(*) AS linhas
+	  FROM "Parch_Posey".orders
+	  GROUP BY 1,2,3
+	 ) a
+WHERE linhas > 1;
+
+-- ALTERNATIVA PARA A CONSULTA ACIMA
+SELECT order_id, account_id, occurred_at, COUNT(*) AS linhas
 FROM "Parch_Posey".orders
-LIMIT 2
+GROUP BY 1,2,3
+HAVING COUNT(*) > 1
